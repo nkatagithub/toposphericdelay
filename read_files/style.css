@@ -1,0 +1,598 @@
+*{margin:0;padding:0;}
+
+body, html
+{
+font-family : Arial,Verdana,Tahoma,sans-serif;
+font-size   : 12px;
+line-height : 18px;
+text-align  : center;
+height      : 101%;
+color       : #555555;
+}
+
+.header { text-decoration:none;text-align:center;background:#274C96;margin:0px;padding:0px 0;height:95px; float:none; clear:both; }
+.header_content { margin:0 auto; width:900px; }
+  table div {
+    min-height:200px;
+  }
+
+#hamburgermenu {
+  display:none;
+}
+
+.content_banner { margin: auto;width:900px;text-align:left;clear:both; background: url('/images/water.jpg') no-repeat ;}
+
+
+#content { margin: auto;width:900px;text-align:left;clear:both;}
+/*#delimiter { clear: both; }*/
+.footer { text-decoration:none;text-align:center;background:#274C96;margin:0px;padding:0px 0;height:174px;float:none; clear:both;}
+.content { margin: auto;width:900px;text-align:left;clear:both;}
+.right {padding-left:25px; width:45%;float:left;display:block;}
+.left   {padding-right:25px; width:45%;float:left;display:block;}
+.first   { margin:20px; text-align:center; float:left; width:250px;}
+.second { margin:20px; text-align:center; float:left; width:250px;}
+.third   { margin:20px; text-align:center; float:left; width:250px;}
+.bottom { background: #eeeeee; height: 350px;text-align:center; clear:both; padding-top:15px;}
+.vl { padding-top:100px; float:left; border-left: thin solid #cccccc; height:120px; }
+.vll { 	border-left: thin solid #cccccc; float:left; height:525px; }
+
+#formback { background:#eeeeee;
+            padding:5px;
+           }
+
+.legal { text-decoration:none;font-size:12px;text-align:center;background:#fff;margin:5px;padding:0px 0;height:30px;float:none }
+.legal .float_left { float: left; }
+.legal .float_right { float: right; }
+.legal .float_right a { font-weight:normal;text-decoration:none;    color:#555555; }
+
+.title { font-size: 11pt; font-weight: bold; }
+.logo { float:left; margin-top: 15px; margin-left: 15px; }
+
+
+.basic-grey {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select{
+    font-family : Arial,Verdana,Tahoma,sans-serif;
+    font-size   : 12px;
+    line-height : 18px;
+    border: 1px solid #DADADA;
+    height: 30px; 
+    margin-bottom: 8px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 60%;
+}
+
+.basic-grey textarea
+{
+  height: 150px;
+}
+
+/* Lists */
+ul{text-align:left;list-style-type:disc;list-style-position:inside;}
+ol{text-align:left;list-style-position:inside;}
+p{font-family:Arial,Verdana,Tahoma,sans-serif;margin:1.2em 0;color       : #555555;}
+
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+.breadcrumbs 
+{
+    color:#000000;
+    padding-top :10px;
+    padding-bottom :10px;
+}
+
+.breadcrumbs li
+{
+ list-style: none;
+ font-style: italic;
+ width:90%;
+ display: inline;
+}
+
+.breadcrumbs li a
+{
+    font-weight:normal;
+    text-decoration:none;
+    color:#555555;
+}
+
+.items li
+{
+    height: 29px;
+    margin: 15px 0; /* not needed, just to add space between the li's */
+    background: url('/images/bullet_collapsed.png') no-repeat left center;
+    list-style: none; /* Get rid of the default bullet points */
+    padding-left: 35px; /* Offsets the text. Needs to be at least the width of your image */
+    line-height: 16px; /* Might have to play with this value a bit */
+}
+
+.items_small li
+{
+    height: 20px;
+    margin: 5px 0;
+    background: url('/images/bullet_collapsed_small.png') no-repeat left center;
+    list-style: none;
+    padding-left: 35px;
+    line-height: 20px;
+}
+
+.top10 li
+{
+    height: 27px;
+    margin: 10px 0; /* not needed, just to add space between the li's */
+    background: url('/images/bullet_collapsed.png') no-repeat left center;
+    list-style: none; /* Get rid of the default bullet points */
+    padding-left: 35px; /* Offsets the text. Needs to be at least the width of your image */
+    line-height: 27px; /* Might have to play with this value a bit */
+}
+
+/* Regular Links */
+a  {color:#0000bb; text-decoration:none ;}
+
+/* Navigation for top Hydromagic top menu */
+.inline-navigation    { font-weight: bold; }
+.inline-navigation ul { margin-bottom: 20px; }
+.inline-navigation li { display: inline; margin-right: 40px; }
+.inline-navigation a { color:#555555;}
+
+/* Standard header formatting */
+h1{font-size:18px;font-weight:100;color:#555555;}
+h3{padding-top:5px;padding-bottom:5px;font-size:12px;color:#274C96;}
+
+/* Code fragments */
+pre.code{padding:10px;color:#000;background:#eeeeee;font-size:11px;overflow:auto;}
+
+/* Tables */
+table.bordered{background:#eeeeee;border-radius:3px;}
+table.bordered th{color:#fff;text-align:left;background:#274C96;font-size:12px;padding:3px;border-radius:3px;}
+table.bordered td{text-align:left;font-size:12px;padding:0px;border-radius:3px;}
+table.bordered a{color:#5c5c5c;text-decoration:none;}
+table.bordered a:hover{color:#8c8f91;}
+
+table.pricing{background:#eeeeee;font-size:12px;}
+table.pricing th{color:#fff;text-align:left;background:#274C96;font-size:12px;padding:3px;}
+table.pricing td{height:40px;text-align:left;padding:0px;margin:0px;}
+
+table.faq
+{
+    width: 100%;
+    line-height: 22px;
+}
+
+table.faq a.tag
+{
+  color:#be6e2d;
+}
+
+table.contact
+{
+    font-size:12px;
+    width: 100%;
+    line-height: 22px;
+}
+
+table.contact img
+{
+  vertical-align: middle;    
+}
+
+.main-navigation,
+.site-title,
+.site-description {
+    margin: 0 auto;
+	max-width: 1160px;
+}
+
+/* Button */
+.button {
+	background-color:#be6e2d;
+    -webkit-appearance: none;
+	-webkit-border-top-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topright:3px;
+	border-top-right-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+	-moz-border-radius-bottomright:3px;
+	border-bottom-right-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-bottom-left-radius:3px;
+	text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	font-style:normal;
+	height:35px;
+	line-height:35px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+    border:0px;
+}.button:hover {
+	background-color:#d9851f;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+
+/* =Menu
+----------------------------------------------- */
+
+.main-navigation 
+{
+  font-weight: bold;
+}
+
+.main-navigation ul {
+	list-style: none;
+	margin-top: 0px;
+	float: right;
+}
+.main-navigation li {
+	float: left;
+	margin-top: 0px;
+	position: relative;
+	background-color: #274C96;
+}
+.main-navigation a {
+	color: #fff;
+    display: block;
+ 	font-size: 16px;
+	height: 90px;
+	line-height: 94px;
+    text-decoration: none;
+	padding: 0 18px;
+	border-top: 4px solid #274C96; 
+}
+
+.main-navigation li.selected a {
+	border-top: 4px solid #ffffff;
+    margin: 0px;
+	color: #fff;
+	display: block;
+}
+
+.main-navigation li a:hover {
+	border-top: 4px solid #ffffff;
+    margin: 0px;
+	color: #fff;
+	display: block;
+}
+
+/* Three Columns List */
+.threecols ul {
+	width: 900px;
+	margin-bottom: 1em;
+}
+
+.threecols ul li {
+	float: left;
+    width: 270px;	
+	list-style: square;
+	margin-right:30px;
+	/*clear:right;*/
+	
+	/*width: 250px;*/
+    /*float:left;*/
+    /*display:inline; */   
+	/*margin-right:30px;*/
+}
+.threecols br
+  {
+    clear: left;
+  }  /* separate the list from subsequent markup */
+/* TOC */
+
+
+.toc, .toc2, .threecols
+{
+margin-bottom: 1em;
+}
+
+.toc ul, .toc2 ul {
+    overflow:hidden;
+	list-style: none;	
+    width: 900px;
+}
+
+.toc ul  li {
+	width: 250px;
+    float:left;
+    display:inline;
+    border-bottom: 1px solid #ccc;
+    margin-right:30px;
+}
+
+.toc2 ul li {
+	width: 430px;
+    float:left;
+    display:inline;
+    border-bottom: 1px solid #ccc;
+    margin-right:20px;
+}
+
+
+.toc a, .toc2  a {
+    color: #555555;
+    display: block;
+    font-size: 12px;
+    line-height:35px;	
+    text-decoration: none;
+    font-weight: normal;	
+}
+
+
+.toc .flag
+{
+  float: left;
+  margin-top: 10px;
+  margin-right: 12px;     
+}
+
+/*************************************************************/
+
+.toc_tree
+{
+    margin-bottom: 1em;
+}
+
+.toc_tree ul
+{
+    overflow:hidden;
+    list-style: none;
+    padding-left:30px;
+}
+
+.toc_tree ul:first-child
+{
+    overflow:hidden;
+	list-style: none;
+    padding-left:0px;
+}
+
+.toc_tree a
+{
+    background: url('/images/bullet_expanded.png') no-repeat left center;
+    display: block;
+    font-size: 14px;
+    padding-left:35px;
+    margin-bottom:10px;
+    line-height:30px;	
+    text-decoration: none;    
+}
+
+.toc_tree a:last-child
+{
+    background: url('/images/bullet_collapsed_small.png') no-repeat 4px center;
+    padding-left:35px;
+    color: #555555;
+    display: block;
+    font-size: 12px;
+    line-height:20px;	
+    text-decoration: none;
+    font-weight: normal;	
+ }
+
+/*************************************************************/
+
+
+
+@media only screen and (min-width : 150px) and (max-width : 950px)
+{
+  * {
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  
+  iframe {
+    width:100%;
+  }
+  
+  .fit  {
+    width:100%;
+  }
+  
+  
+  #navigation {
+    display:none;
+  }
+  
+  #hamburgermenu {
+    display:block;
+    float:right;
+    margin:30px 2% 0 0;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+    background:url("/images/hamburgermenu.png") no-repeat;
+  }
+
+  #hamburgermenu:hover {
+    background:url("/images/hamburgermenu.png") no-repeat;
+  }
+  
+  .header_content {
+    width:100%;
+  }
+  
+  hr {
+    background:none;
+  }
+  
+  .vl {
+    border:none;
+  }
+  
+  .vll {
+    display:none;
+  }
+  
+  #lightboxDetails {
+    width:90% !important;
+  }
+  
+  #lightbox {
+    border:none !important;
+    padding:0 !important;
+    width:100% !important;
+  }
+  
+  #lightboxImage {
+    padding:0;
+    width:90%;
+  }
+
+  .top10 li {
+    margin:40px 0 0 0;
+    line-height:18px;
+  }
+  
+  .toc2 ul li {
+    width:100%;
+  }
+  
+  .left p {
+    width:100%;
+  }
+  
+  p a img {
+    width:100%;
+  }
+  
+  .left a img {
+    margin:0 auto;
+    width:100%;
+  }
+  
+  table.contact img {
+    width:auto;
+  }
+  table img {
+    margin:1em 0;
+    width:80%;
+  }
+  
+  #content,
+  .content {
+    width:96%;
+    margin:0 2%;
+  }
+  
+  .main-navigation li {
+    width:100%;
+  }
+  
+  .main-navigation li.selected a {
+    color:#274C96;
+    background:#fff;
+    border:none;
+  }
+  
+  .main-navigation li a {
+    height:32px;
+    line-height:32px;
+  }
+  
+  .first,
+  .second,
+  .third {
+    margin:1%;
+    width:98%;
+  }
+  
+  .input {
+    width:100%;
+  }
+  
+  .basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select,
+  .input input {
+    margin:1em 0 0 0;
+    padding:1%;
+    width:98%;
+  }
+  
+  .main-navigation ul {
+    overflow:hidden;
+    margin:1em 0 0 0;
+    width:100%;
+  }
+  
+  .bottom {
+    background:none;
+  }
+  
+  .bottom,
+  .toc ul li,
+  .footer {
+    width:100%;
+  }
+  
+  .main-navigation li a:hover
+  {
+    color:#274C96;
+    background:#fff;
+  }
+  
+  .inline-navigation li {
+    display:block;
+    width:100%;
+  }
+  
+  .left,
+  .right
+  {
+    padding:0;
+    width:100%;
+  }
+  
+  .button {
+    margin:1em 0 0 0;
+    width:100%;
+  }
+  
+  .footer img {
+    width:100%;
+  }
+  
+  .toc ul, .toc2 ul {
+    width:100%;
+  }
+  
+  table {
+    width:100%;
+    border-collapse: collapse; 
+  }
+  
+  td, th { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding:0 !important; 
+    width:100%;
+    float:left;
+    height:auto !important;
+	}
+  
+  td img {
+    text-align:center;
+  }
+}
